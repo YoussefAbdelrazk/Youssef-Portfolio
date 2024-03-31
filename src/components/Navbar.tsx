@@ -107,6 +107,9 @@ const Navbar = () => {
               </a>
             ))}
           </div>
+          <div className=" flex ml-6 border p-3  text-gray-100 font-bold capitalize w-fit">
+            <h1> اللهم ارحم امي وابي واغفر لهما</h1>
+          </div>
         </div>
         <div className="block lg:hidden">
           <Hamburger
