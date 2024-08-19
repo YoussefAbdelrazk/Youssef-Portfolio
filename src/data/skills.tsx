@@ -16,9 +16,7 @@ import {
   SiDaisyui,
   
   SiReactquery,
-  SiNodedotjs,
-  SiMongodb,
-  SiExpress,
+
 } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 import { PiFramerLogo } from "react-icons/pi";
@@ -69,21 +67,9 @@ export const skills = [
     icon: <BsBootstrap />,
     text: "Bootstrap",
   },
-  {
-    id: 10,
-    icon: <SiNodedotjs/>,
-    text: "Node Js",
-  },
-  {
-    id: 10,
-    icon: <SiMongodb/>,
-    text: "Mongodb",
-  },
-  {
-    id: 10,
-    icon: <SiExpress/>,
-    text: "Express",
-  },
+  
+
+
 
   {
     id: 12,
