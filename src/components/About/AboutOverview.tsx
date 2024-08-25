@@ -1,5 +1,5 @@
 import downloadAnimation from "../../assets/downloadAnimation.json";
-import portfolio from "../../assets/Youssef-Abdelrazk-Resume.pdf";
+import portfolio from "../../assets/YoussefAbdelrazk.pdf";
 import { aboutText } from "../../data/text";
 import Button from "../../ui/Button";
 
