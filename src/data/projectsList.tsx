@@ -1,11 +1,11 @@
 import FreshCartweb from "../assets/FireShot Capture 028 - Products - freshcart-tau.vercel.app.png";
-import Foodweb from "../assets/SCR-20240123-doby.jpeg";
-import BeachesWeb from "../assets/Screenshot 2024-08-19 at 8.37.26 AM.png";
+import Foodweb from "../assets/FireShot Capture 032 - Yummy HaZo - youssefabdelrazk.github.io.png";
+import BeachesWeb from "../assets/FireShot Capture 030 - Netflix - magical-madeleine-3d28f1.netlify.app.png";
 
 
 import FreshCart from "../assets/FireShot Capture 028 - Products - freshcart-tau.vercel.app.png";
-import Food from "../assets/SCR-20240123-doby.jpeg";
-import Beaches from "../assets/Screenshot 2024-08-19 at 8.37.26 AM.png";
+import Food from "../assets/FireShot Capture 032 - Yummy HaZo - youssefabdelrazk.github.io.png";
+import Beaches from "../assets/FireShot Capture 030 - Netflix - magical-madeleine-3d28f1.netlify.app.png";
 
 
 export const projectsList = [
@@ -45,31 +45,33 @@ export const projectsList = [
     webpSrc: Foodweb,
     pngSrc: Food,
     imageHeight: 1100,
-    link: "https://euphonious-horse-205301.netlify.app/",
-    github: "https://github.com/YoussefMohamedHazo/FoodApp",
+    link: "https://youssefabdelrazk.github.io/Yummy-Hazo/",
+    github: "https://github.com/YoussefAbdelrazk/Yummy-Hazo",
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript",
+      
+    ],
+  },
+  {
+    id: 3,
+    title: "Netflix Clone",
+    description:
+      `This project, built with React.js, integrates Firebase for user authentication (sign-in, sign-up, and logout) and Firestore for dynamic data management. The UI is styled with Tailwind CSS, and I utilized Formik and Yup for robust form validation. To bring real movie data into the app, I used the TMDb API, creating a dynamic and immersive user experience`,
+    webpSrc: BeachesWeb,
+    pngSrc: Beaches,
+    imageHeight: 1100,
+    link: "https://magical-madeleine-3d28f1.netlify.app",
+    github: "https://github.com/YoussefAbdelrazk/netflix-clone",
     tags: [
       "HTML",
       "CSS",
       "Javascript",
       "React",
       "Tailwind",
-    ],
-  },
-  {
-    id: 3,
-    title: "Weather Website",
-    description:
-      `A weather website provides real-time weather updates, detailed forecasts, and interactive maps for any location. It offers features like severe weather alerts, air quality indices, and customizable widgets to help users stay informed and prepared. The platform is designed with a user-friendly interface for easy access to essential weather information.`,
-    webpSrc: BeachesWeb,
-    pngSrc: Beaches,
-    imageHeight: 1100,
-    link: "https://youssefabdelrazk.github.io/Weather-App/",
-    github: "https://github.com/YoussefAbdelrazk/Weather-App",
-    tags: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "React",
+      "Firebase",
+      "FireStore",
       
     ],
   },
